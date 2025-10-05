@@ -43,5 +43,8 @@ pids
 # Coverage directory used by tools like istanbul
 coverage/
 
-# Netlify
+# Netlify (legacy)
 .netlify/
+
+# Vercel
+.vercel/
