@@ -720,8 +720,16 @@ class LanguageManager {
             const key = element.getAttribute('data-translate');
             const translation = this.translations[this.currentLanguage][key];
             if (translation) {
-                if (element.tagName === 'INPUT' && element.type === 'email') {
+                if (element.tagName === 'INPUT' && (element.type === 'email' || element.type === 'text' || element.type === 'tel')) {
                     element.placeholder = translation;
+                } else if (element.tagName === 'TEXTAREA') {
+                    element.placeholder = translation;
+                } else if (element.tagName === 'SELECT') {
+                    // Handle select options
+                    const option = element.querySelector(`option[value="${element.value}"]`);
+                    if (option) {
+                        option.textContent = translation;
+                    }
                 } else {
                     element.textContent = translation;
                 }
