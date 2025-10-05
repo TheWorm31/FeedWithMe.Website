@@ -1,25 +1,31 @@
 {
   "name": "feedwithme-landing",
   "version": "1.0.0",
-  "description": "FeedWithMe Landing Page",
+  "description": "FeedWithMe Landing Page - AI Recipe App with Bilingual Email System",
   "main": "index.html",
   "scripts": {
+    "dev": "vercel dev",
     "build": "echo 'Static site - no build needed'",
-    "dev": "netlify dev"
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.58.0",
     "dotenv": "^17.2.3"
   },
   "devDependencies": {
-    "netlify-cli": "^17.0.0"
+    "vercel": "^32.0.0"
   },
   "keywords": [
-    "food",
-    "ai",
-    "recipes",
-    "mvp"
+    "feedwithme",
+    "landing-page",
+    "ai-recipe",
+    "bilingual",
+    "email-system"
   ],
   "author": "FeedWithMe Team",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
