@@ -1,0 +1,25 @@
+{
+  "name": "feedwithme-landing",
+  "version": "1.0.0",
+  "description": "FeedWithMe Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "keywords": [
+    "food",
+    "ai",
+    "recipes",
+    "mvp"
+  ],
+  "author": "FeedWithMe Team",
+  "license": "MIT"
+}

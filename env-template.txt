@@ -1,0 +1,23 @@
+# Environment Variables Configuration
+# Copy this file to .env and fill in your actual values
+
+# Supabase Configuration
+SUPABASE_URL=https://vxuqroxexsjctmcmfuii.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ4dXFyb3hleHNqY3RtY21mdWlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg4MDk1NTAsImV4cCI6MjA2NDM4NTU1MH0.ZzCJJ7kuOW9Gh753MBPiz1oNRosxRCcBtQttjdoi0Ng
+# Service Role Key (for server-side operations - get this from Supabase dashboard)
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key_here
+
+# Email Configuration (Resend)
+RESEND_API_KEY=re_Ym39sbXq_27FqXKG4qcKQcRf8SscygNTo
+
+# Alternative email services (uncomment and configure as needed)
+# For Gmail:
+# EMAIL_USER=info@feedwithme.com
+# EMAIL_PASS=your_gmail_app_password
+
+# For SendGrid:
+# SENDGRID_API_KEY=your_sendgrid_api_key
+
+# For Mailgun:
+# MAILGUN_API_KEY=your_mailgun_api_key
+# MAILGUN_DOMAIN=your_mailgun_domain
